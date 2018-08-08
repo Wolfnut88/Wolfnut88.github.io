@@ -5,8 +5,9 @@ var username = "Wolfnut88"
 var clientid = "be212a58528168962a39c64052c1d88e";
 var redirecturi = "http://localhost:8002/callback.html";
 var locations = [
-  "784201",
-  "784302"
+  "12765962",
+  "12799202",
+  "12796095",
 ];
 var images = [
   "1412446496031.jpg",
