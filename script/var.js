@@ -7,7 +7,7 @@ var redirecturi = "http://localhost:8002/callback.html";
 var locations = [
   "12765962",
   "12799202",
-  "12796095",
+  "12796095"
 ];
 var images = [
   "1412446496031.jpg",
@@ -51,45 +51,31 @@ var favorites = [
       ["bitbucket" , "http://bitbucket.org", "bb"]
     ]
   ],
-  [ "Social",
-    [
-      ["whatsapp" , "https://web.whatsapp.com/", "wa"],
-      ["hangouts" , "http://hangouts.google.com", "hang"],
-      ["facebook" , "https://www.facebook.com/" , "fb"],
-      ["twitter" , "https://twitter.com/", "twi"]
-    ]
-  ],
   [ "Download",
     [
       ["thepiratebay", "http://thepiratebay.se", "tpb"],
-      ["T411", "http://www.t411.in/", "t411"]
-    ]
-  ],
-  [ "Reddit",
-    [
-      ["Frontpage", "https://www.reddit.com/", "fp"],
-      ["LoL", "https://www.reddit.com/r/leagueoflegends/", "lol"],
-      ["4chan", "https://www.reddit.com/r/4chan/", "4ch"],
-      ["Monster Hunter", "https://www.reddit.com/r/MonsterHunter/", "mh"],
-      ["Programmer Humor", "https://www.reddit.com/r/ProgrammerHumor/", "ph"]
+      ["T411", "http://www.t411.in/", "t411"],
+      ["NexusMODS", "https://www.nexusmods.com", "NM"],
+      ["UnBlocked", "https://unblocked.vet/", "UB"]
     ]
   ],
   [ "4chan",
     [
-      ["/b/", "http://4chan.org/b/", "b"],
-      ["/wg/", "http://4chan.org/wg/", "wg"],
-      ["/g/", "http://4chan.org/g/", "g"]
+      ["/b/", "https://boards.4chan.org/b", "b"],
+      ["/wg/", "https://boards.4chan.org/wg", "wg"],
+      ["/g/", "https://boards.4chan.org/g", "g"],
+      ["/wsg/", "https://boards.4chan.org/wsg", "wsg"]
     ]
   ],
   [ "Others",
     [
       ["hugelol", "http://hugelol.com", "hgl"],
-      ["hiddenlol", "http://hiddenlol.com", "hdl"]
+      ["hiddenlol", "http://hiddenlol.com", "hdl"],
+      ["Plex", "http://127.0.0.1:32400/web/index.html", "PLEX"]
     ]
   ]
 ];
 var feeds = [
   ["20min Hi-Tech","http://www.20min.ch/rss/rss.tmpl?type=channel&get=20&lang=ro"],
   ["Internet is Beautiful", "https://www.reddit.com/r/InternetIsBeautiful/.rss"],
-  ["Listen to this", "https://www.reddit.com/r/listentothis/.rss"]
 ];
