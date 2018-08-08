@@ -1,7 +1,7 @@
 // All the variable for the app
 // Their name are explicit
 
-var username = "Cel51"
+var username = "Wolfnut88"
 var clientid = "be212a58528168962a39c64052c1d88e";
 var redirecturi = "http://localhost:8002/callback.html";
 var locations = [
@@ -29,7 +29,12 @@ var images = [
   "1445713184723.jpg",
   "1448399280112.jpg",
   "1450066383293.jpg",
-  "1450074394745.jpg"
+  "1450074394745.jpg",
+  "1487521652997.gif",
+  "1491525573749.gif",
+  "1487138332082.gif",
+  "1490184273840.gif",
+  "1489951419026.gif"
 ];
 var searchs = [
   ["!g", "https://www.google.ch/#q="],
