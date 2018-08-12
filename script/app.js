@@ -422,7 +422,7 @@ function initWeather() {
       zipcode: '',
       woeid: locations[e],
       location: '',
-      unit: 'c',
+      unit: 'f',
       success: function(weather) {
         var weatherObj = '<p class="weather" id="' + locations[e] + '">' +
           '<span class="weather-location"></span><br>' +
