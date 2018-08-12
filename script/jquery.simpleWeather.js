@@ -3,7 +3,7 @@
   "use strict";
 
   function getAltTemp(unit, temp) {
-    if(unit === 'x') {
+    if(unit === 'c') {
       return Math.round((5.0/9.0)*(temp-32.0));
     } else {
       return Math.round((9.0/5.0)*temp+32.0);
@@ -15,7 +15,7 @@
       options = $.extend({
         location: '',
         woeid: '',
-        unit: 'f',
+        unit: 'c',
         success: function(weather){},
         error: function(message){}
       }, options);
@@ -79,10 +79,10 @@
             }
 
             weather.alt = {temp: getAltTemp(options.unit, result.item.condition.temp), high: getAltTemp(options.unit, result.item.forecast[0].high), low: getAltTemp(options.unit, result.item.forecast[0].low)};
-            if(options.unit === 'f') {
+            if(options.unit === 'c') {
               weather.alt.unit = 'f';
             } else {
-              weather.alt.unit = 'f';
+              weather.alt.unit = 'c';
             }
 
             weather.forecast = [];
