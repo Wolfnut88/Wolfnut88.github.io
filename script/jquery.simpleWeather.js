@@ -79,8 +79,8 @@
             }
 
             weather.alt = {temp: getAltTemp(options.unit, result.item.condition.temp), high: getAltTemp(options.unit, result.item.forecast[0].high), low: getAltTemp(options.unit, result.item.forecast[0].low)};
-            if(options.unit === 'x') {
-              weather.alt.unit = 'c';
+            if(options.unit === 'f') {
+              weather.alt.unit = 'f';
             } else {
               weather.alt.unit = 'f';
             }
